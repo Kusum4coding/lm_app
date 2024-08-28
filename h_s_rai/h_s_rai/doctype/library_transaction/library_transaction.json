@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "lmt.####",
+ "creation": "2024-08-23 20:58:12.997285",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "library_transactions_section",
+  "article",
+  "library_member",
+  "status",
+  "date_of_transaction"
+ ],
+ "fields": [
+  {
+   "fieldname": "library_transactions_section",
+   "fieldtype": "Section Break",
+   "label": "Library Transactions"
+  },
+  {
+   "fieldname": "article",
+   "fieldtype": "Link",
+   "label": "Article",
+   "options": "Article"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "label": "Library member",
+   "options": "Library Member"
+  },
+  {
+   "fieldname": "date_of_transaction",
+   "fieldtype": "Date",
+   "label": "Date of transaction"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Issue\nReturn"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-28 17:17:28.900209",
+ "modified_by": "Administrator",
+ "module": "H S Rai",
+ "name": "Library Transaction",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

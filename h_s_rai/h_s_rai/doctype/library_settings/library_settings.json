@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-23 21:11:05.776062",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "library_setiings_section",
+  "loan_period",
+  "maximum_number_of_article_issued"
+ ],
+ "fields": [
+  {
+   "fieldname": "library_setiings_section",
+   "fieldtype": "Section Break",
+   "label": "Library setiings "
+  },
+  {
+   "fieldname": "loan_period",
+   "fieldtype": "Int",
+   "label": "Loan period"
+  },
+  {
+   "fieldname": "maximum_number_of_article_issued",
+   "fieldtype": "Int",
+   "label": "Maximum number of article issued"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-23 22:01:54.361447",
+ "modified_by": "Administrator",
+ "module": "H S Rai",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
